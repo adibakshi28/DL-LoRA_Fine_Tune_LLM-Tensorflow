@@ -1,4 +1,4 @@
-# DL-LoRA_Fine_Tune_LLM-Tensorflow
+# LoRA Fine Tuning LLM (Using Tensorflow)
 
 ## Enhancing Financial Sentiment Analysis with LoRA Fine-Tuned DistilBERT
 
