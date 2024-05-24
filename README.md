@@ -25,9 +25,6 @@ You can also run the project on Google Colab using the following link: [Colab No
     ```
 
 2. Install the required packages:
-    ```bash
-    pip install tensorflow transformers datasets jupyter nbformat
-    ```
 
 ### Usage
 1. Open the Jupyter Notebook:
