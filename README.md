@@ -6,10 +6,18 @@
 This project focuses on fine-tuning the DistilBERT model using Low-Rank Adaptation (LoRA) techniques for sentiment analysis on financial sentiment text data. The aim is to improve the model's performance in accurately classifying sentiments within financial documents by leveraging the LoRA method, which allows for efficient fine-tuning with fewer parameters. This project explores different training techniques, learning rates, and strategies to handle class imbalances, resulting in high accuracy and insightful optimizations for large language models in the financial domain.
 The code uses Tensorflow and Keras library.
 
+<div style="display: flex; justify-content: space-between;">
+  <img src="ss/1.png" alt="Screenshot 1" style="width: 98%;">
+</div>
+
 ### Run on Google Colab
 You can also run the project on Google Colab using the following link: [Colab Notebook](https://colab.research.google.com/drive/1wxIKIzxIDn0PQYq6RRpgFEQDtVnHJdwB?usp=sharing).
 
 **Note:** Enable GPU for training the model. The free GPU provided by Colab will work.
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="ss/2.png" alt="Screenshot 2" style="width: 98%;">
+</div>
 
 ### Key Features
 - **Data Loading and Preprocessing**: Utilizing the `datasets` library to load the financial phrasebank dataset and preprocessing it for model training.
