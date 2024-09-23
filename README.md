@@ -45,6 +45,14 @@ Each record in the dataset consists of:
 - **Performance Evaluation**: Evaluating the model using classification reports, confusion matrices, and conducting error analysis.
 - **Experiments with LoRA**: Testing the impact of LoRA on the model's performance compared to traditional fine-tuning methods.
 
+### Insight
+Increasing Rank does seem to improve accuracy and reduce loss but by a very small amount to a point where the computation power required for higher rank is a disadvantage compared to accuracy improvements.
+A rank of 8 seem to be optimal
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="ss/1.png" alt="Screenshot 1" style="width: 98%;">
+</div>
+
 ### Installation
 1. Clone the repository:
     ```bash
