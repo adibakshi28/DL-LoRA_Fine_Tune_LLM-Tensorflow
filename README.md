@@ -47,7 +47,7 @@ Each record in the dataset consists of:
 
 ### Insight
 Increasing Rank does seem to improve accuracy and reduce loss but by a very small amount to a point where the computation power required for higher rank is a disadvantage compared to accuracy improvements.
-A rank of 8 seem to be optimal
+A rank of 8 seem to be well balanced.
 
 <div style="display: flex; justify-content: space-between;">
   <img src="ss/1.png" alt="Screenshot 1" style="width: 98%;">
