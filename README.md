@@ -11,6 +11,33 @@ You can also run the project on Google Colab using the following link: [Colab No
 
 **Note:** Enable GPU for training the model. The free GPU provided by Colab will work.
 
+### Dataset Structure
+
+Each record in the dataset consists of:
+
+- **Text**: Financial news or corporate announcements.
+- **Sentiment**: The sentiment label — `0` for Negative, `1` for Neutral, and `2` for Positive.
+
+#### Dataset Fields:
+
+- **ID**: Unique identifier for each entry.
+- **Text**: The financial news or report.
+- **Sentiment**: Sentiment label (`0`, `1`, `2`).
+
+#### Sentiment Labels:
+
+- `0`: Negative
+- `1`: Neutral
+- `2`: Positive
+
+#### Example Entries
+
+| ID  | Text                                                                                       | Sentiment |
+|-----|---------------------------------------------------------------------------------------------|-----------|
+| 1   | "The current lay-offs are additional to the temporary lay-offs agreed in December 2008 and in May 2009." | 0 (Negative) |
+| 2   | "The acquisition is expected to take place by the end of August 2007."                      | 1 (Neutral)  |
+| 3   | "Strong brand visibility nationally and regionally is of primary importance in home sales, vehicle and consumer advertising." | 1 (Neutral)  |
+
 ### Key Features
 - **Data Loading and Preprocessing**: Utilizing the `datasets` library to load the financial phrasebank dataset and preprocessing it for model training.
 - **LoRA Fine-Tuning**: Applying the LoRA technique to fine-tune the DistilBERT model with efficiency and effectiveness.
